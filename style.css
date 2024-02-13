@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana';
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR  */
+
+.navbar {
+    height: 80px;
+    background-color: rgb(233, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    color: rgb(70, 70, 70);
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.div-on-image {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+.div-on-image h3 {
+    color: white;
+    font-weight: 100;
+}
+
+.div-on-image h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.div-on-image p {
+    color: white;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+/* HERO SECTION  */
+
+
+/* MADE BY GEMINI  */
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Set the desired height for the hero section */
+    background-image: url("bg-image-1.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.div-on-image {
+    position: absolute;
+    /* Remove unnecessary overflow: hidden */
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* Center within the hero section */
+}
+
+h3,
+h1,
+p {
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* -- MADE BY GEMINI -- END */
+
+
+/* MAIN SECTION  */
+
+.main-section {
+    height: 80vh;
+}
+
+.m-s-p {
+    font-weight: 100;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+.main-images-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* FOOTER  */
+
+.footer {
+    height: 40vh;
+    background-color: rgb(94, 94, 94);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.footer h3 {
+    color: white;
+    font-weight: 100;
+}
+
+.footer p {
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.about-me {
+    img {
+        float: left;
+    }
+
+    line-height: 22px;
+    width: 45%;
+}
+
+.mailing-list {
+    input {
+        width: 250px;
+        height: 25px;
+    }
+
+    button {
+        width: 250px;
+        height: 25px;
+        background-color: rgb(52, 170, 216);
+        color: white;
+        border: 2px solid rgb(52, 170, 216);
+    }
+}
+
+.socials {
+    position: absolute;
+    top: 30px;
+    right: 150px;
+}
+
+i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* COMPLETED -- CONGRATULATIONS */
